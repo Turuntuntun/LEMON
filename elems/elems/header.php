@@ -7,7 +7,7 @@
     <nav>
         <ul class = "nav">
             <li class = "menu_item" id ='first-child'>
-                <a href="">HOME</a>
+                <a href="/">HOME</a>
             </li>
             <li class = "menu_item">
                 <a href="">RECIPES</a>

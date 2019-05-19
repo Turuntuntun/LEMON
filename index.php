@@ -10,7 +10,7 @@
         if ($pass1 == $pass2){
             $pass = md5($pass1);
             $query = "INSERT INTO users SET login = '$login', password = '$pass', email = '$email'";
-            mysqli_query($link,$query) or die (mysql_error($link));
+            mysqli_query($link,$query) or die (mysqli_error($link));
         }
         
     }
