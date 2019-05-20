@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset = "utf-8">
-	<link rel="stylesheet" type="text/css" href="../css/styles.css?v=9">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/list_of_post/style.css?v=2">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css?v=2">
+
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
@@ -20,7 +22,7 @@
 	<main>
 		<?php
 			include 'elems/first_block.php';
-			include 'elems/second_block.php';
+			include 'elems/list_of_post/second_block.php';
 			include 'elems/trird_block.php';
 			include 'elems/fourth_block.php';
 			include 'elems/fifth_block.php';

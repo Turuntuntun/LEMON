@@ -1,0 +1,61 @@
+.recipees{
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 43px;
+    padding-left:50px;
+    width: 1120px;
+    height: 375px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.zag{
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 0, 0);;
+    z-index: 64;
+    margin-bottom: 7px;
+}
+.fonbox{
+    margin-bottom: 20px;
+    width: 313px;
+    height: 208px;
+}
+.icon_time{
+    margin-right: 3px;
+    width: 11px;
+    height: 12px;
+    background-image: url("images/Clock_Icon.png");
+}
+.small_zag{
+    display: flex;
+    align-items:center;
+}
+.mins {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 85, 85);
+    z-index: 66;
+}
+.comment_icon{
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    width: 13px;
+    height: 11px;
+    background-image: url("images/Comment_Icon.png");
+}
+.viem_icon{
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 1px;
+    width: 13px;
+    height: 9px;
+    background-image: url("images/View_Icon.png");
+}
+.box{
+    margin-right: 38px;
+    display: inline-block;
+    width: 315px;
+}
