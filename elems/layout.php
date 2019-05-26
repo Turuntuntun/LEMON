@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset = "utf-8">
-    <link rel="stylesheet" type="text/css" href="/elems/elems/list_of_post/style.css?v=2">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/list_of_post/style.css?v=3">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css?v=2">
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
@@ -17,23 +17,23 @@
 	<div class = "logo">
 	</div>
  	<header>
-        <? include 'elems/header.php'; ?>
+        <? include 'header.php'; ?>
 	</header>
 	<main>
 		<?php
-			include 'elems/first_block.php';
-			include 'elems/list_of_post/second_block.php';
-			include 'elems/trird_block.php';
-			include 'elems/fourth_block.php';
-			include 'elems/fifth_block.php';
-			include 'elems/sixth_block.php';
-			include 'elems/seventh_block.php';
-			include 'elems/eigth_block.php';
-			include 'elems/nineth_block.php';
+			include 'elems/preview_of_post/main.php';
+			include 'elems/list_of_post/main.php';
+			include 'elems/full_post/main.php';
+			include 'elems/elem_about_syte/main.php';
+			include 'elems/complex_element/main.php';
+			include 'elems/authorization_registrarion/main.php';
+			include 'elems/post_a_comment/main.php';
+			include 'elems/comments/main.php';
+			include 'elems/navigation/main.php';
 		?>  
     </main>
     <footer>
-    	<? include 'elems/footer.php'; ?>
+    	<? include 'footer.php'; ?>
     </footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-
+    require_once('class.php');
     $SQLRequest = "SELECT COUNT(*) FROM random_pages";
     $result = mysqli_query($link,$SQLRequest) or die (mysqli_error());
     $count_str_of_mysql = mysqli_fetch_assoc($result)['COUNT(*)'];
