@@ -1,4 +1,4 @@
-<div class = "recipe">
+<div class = "full_post">
     <div class = "photo_icon">
     </div>
     <div class = "recipe_text">

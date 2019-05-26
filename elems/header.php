@@ -7,6 +7,8 @@
     <?
     require_once('/elems/head_menu/main.php');
     ?>
-
-    <input type = "text"  placeholder = "FIND A RECIPE" id = 'find_recipe'>
+    <form action ='' method='GET'>
+        <input type = "text"  placeholder = "FIND A RECIPE" id = 'find_recipe'>
+        <input type = 'submit'>
+    </form>
 </div>

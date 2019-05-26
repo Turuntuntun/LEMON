@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+}
+.menu_item a{
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+}
+.menu_item{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+.menu_item ul{
+    display: none;
+    width: 150px;
+    height: 180px;
+}
+
+.menu_item ul li{
+    padding: 0;
+    padding-left: 25px;
+    margin-top: 17px;
+}
+
+.menu_item:hover>ul{
+    display: block;
+    background-color: white;
+    opacity:1;
+    position: absolute;
+    left: -20px;
+    opacity: 0.8;
+}
+.menu_item ul a{
+    font-size: 12px;
+    font-weight: 100;
+}
+.menu_item:hover>ul a{
+    color: gray;
+}
+.menu_item:hover>ul a:hover{
+    text-decoration: underline;
+    color:black;
+}

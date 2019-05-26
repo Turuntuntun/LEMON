@@ -1,0 +1,19 @@
+.paggin{
+    width: 840px;
+    height: 93px;
+    background-color: white;
+    margin:0 auto;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paggin_a a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    font-family: "Josefin Sans",serif;
+    font-weight: 400;
+    margin-right: 25px;
+}

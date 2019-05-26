@@ -2,12 +2,20 @@
 <html>
 <head>
 	<meta charset = "utf-8">
+    <!-- Стили шаблона -->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css?v=3">
+    <!-- Стили елементов -->
     <link rel="stylesheet" type="text/css" href="/elems/elems/list_of_post/style.css?v=3">
-	<link rel="stylesheet" type="text/css" href="../css/styles.css?v=2">
-
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/head_menu/style.css?v=3">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/full_post/style.css?v=3">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/navigation/style.css?v=3">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/post_a_comment/style.css?v=3">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/elem_about_syte/style.css?v=5">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <!-- Скрипты -->
 	<script type="text/javascript" src = "../js/main.js"></script>
 	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>

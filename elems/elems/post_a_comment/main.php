@@ -8,7 +8,7 @@
 	    </div>
 	</div>
       <div class = 'gray_post'>
-      	<div class = 'chi_chi_logo'>
+      	<div class = 'post_logo'>
       	</div>
       	<div class = 'post_a_comment'>
       		<form action = '' method = 'GET'>

@@ -1,0 +1,73 @@
+.full_post{
+    width: 1142px;
+    height: 440px;
+    margin: 0 auto;
+    margin-top: 88px;
+    background-image: url("images/rec1.png")
+}
+.photo_icon{
+    position: absolute;
+    margin-left: 458px;
+    margin-top: 10px;
+    width: 51px;
+    height: 63px;
+    background-image: url("images/Photo_Icon.png")
+}
+.photo_icon:hover{
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+}
+.recipe_smal_zag{
+    margin-top: 15px;
+    display: flex;
+    align-items:center;
+}
+.icon_easy{
+    width: 26px;
+    height: 24px;
+    background-image: url('images/Easy_Icon.png');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-left: 8px;
+}
+#easy{
+    font-size: 18px;
+}
+#rec_mins{
+    font-size: 16px;
+}
+.recipe_recipe{
+    margin-top: 15px;
+    padding-right: 25px;
+    overflow-y: scroll;
+    height: 280px;
+}
+.recipe_text{
+    width: 510px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 32px;
+    white-space: nowrap;
+}
+.recipe_zag{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #055555;
+}
+.recipe_smal_zag {
+    width: 480px;
+}
+.recipe_smal_zag input[type="button"]{
+    margin-left: auto;
+}
+.ingridients{
+    margin-top: -15px;
+    height: 100px;
+    white-space: pre-line;
+    text-align: justify;
+}
+.full_recipe{
+    white-space: pre-line;
+    text-align: justify;
+    height: 200px;
+}
