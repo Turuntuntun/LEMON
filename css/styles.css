@@ -52,80 +52,6 @@ nav{
 #first-child{
 	margin-left: 50px;
 }
-.heropage{
-	margin: 0 auto;
-	height: 460px;
-	width: 1142px;
-	background-image: url("images/Photo.png");
-	background-repeat: no-repeat;
-	margin-top: 80px;
-	margin-bottom: 100px;
-}
-.block{
-	display: block;
-	position: relative;
-	margin-left: 100px;
-	top: 48px;
-}
-.third_logo{
-	width: 252px;
-	height: 105px;
-	background-image: url('images/Logo.png');
-	margin-bottom:35px;
-}
-input[type="button"]{
-	padding: 3px 7px;
-	font-size: 12px;
-	background-color:transparent;
-	border: 1px solid #c2c2c2;
-	cursor: pointer;
-}
-input[type="button"]:active{
-	outline: none;
-    border: 1px solid #4b4b4b;
-    background-color: #bdb8b9;
-}
-input[type="button"]:focus{
-	outline: none;
-}
-.firsttext{
-    margin-top: 29px;
-	width: 325px;
-	margin-bottom: 27px;
-}
-h2{ 
-	color:#921026;
-}
-input[type = "radio"]{
-	display: none;
-}
-input[type="radio"]:checked + label div{
-    background-color: #555555;
-}
-label{
-	width: 7px;
-	height: 7px;
-	border-radius: 10px;
-}
-label div{
-	cursor:pointer;
-	display: inline-block;
-	margin-right: 5px;
-	width: 7px;
-	height: 7px;
-	background-color: white;
-	border-radius: 10px;
-}
-.radio1{
-   position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
-   bottom: -50px; /* прикрепить к верху родителя */
-   right: 30px;
-   -moz-user-select: none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
-   user-select: none;
-   cursor:default;
-}
 ::-webkit-scrollbar {
     width: 3px;
     background-color: #F5F5F5;
@@ -594,38 +520,12 @@ label div{
 	display: flex;
 	justify-content:space-between;
 }
-.logg{
-	width: 326px;
-	height: 405px;
-	background-color: white;
-	box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
-}
+
 .reg{
 	width: 310px;
 	height: 540px;
 	background-color: white;
 	box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
-}
-.remember_block{
-	display: flex;
-	justify-content:space-between;
-}
-.logg_checkbox{
-	display: flex;
-}
-.remember_block p ,.remember_block a{
-	font-size: 12px;
-	font-family: "Josefin Sans",serif;
-	font-weight: 400;
-	font-style: italic;
-    color: rgba(0, 0, 0, 0.541);
-}
-.remember_block a{
-	text-decoration: none;
-}
-.logg_block{
-	width: 265px;
-	margin: 0 auto;
 }
 .logg .meny_side_rep, .logg .smal_hr2,.reg .meny_side_rep, .reg .smal_hr2{
 	width: 265px;
@@ -646,9 +546,6 @@ label div{
 .logg_block input[type='text']:focus,.logg_block input[type='password']:focus{
 	box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.120);
     border:1px solid #c2c2c2;
-}
-.remember_block{
-	margin-top: 15px;
 }
 .logg_block input[type='submit']{
     width: 105px;
@@ -686,24 +583,6 @@ label div{
 	justify-content:space-between;
 	align-items:center;
 }
-.dont{
-	margin: 0 auto;
-    font-size: 16px;
-    font-family: "Josefin Sans",serif;
-    color: rgba(0, 0, 0, 0.541);
-    text-decoration: none;
-}
-.adont{
-	text-align: center;
-	margin-top:15px;
-	font-style: italic;
-}
-input[name='remember']{
-	background-color: white;
-	width: 10px;
-	height: 10px;
-	margin-left: 3px;
-}
 .byjoin{
     font-size: 14px;
     font-family: "Josefin Sans",serif;
@@ -711,7 +590,6 @@ input[name='remember']{
     margin-top: 25px;
     font-style: italic;
 }
-
 .comments{
 	width: 840px;
 	height: 760px;
@@ -728,7 +606,6 @@ input[name='remember']{
 .com{
 	font-size: 24px;
 }
-
 /*Низ*/
 footer{
 	width: 100%;

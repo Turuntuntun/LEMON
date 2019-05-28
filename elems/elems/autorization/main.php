@@ -1,8 +1,8 @@
-<div class = 'logg'>
-    <div class = 'meny_side_rep'>
+<div class = 'login_block'>
+    <div class = 'menu_side_log'>
         <p>Login</p>
     </div>
-    <hr class = 'smal_hr2'>
+    <hr class = 'login_small_hr'>
     <div class = 'logg_block'>
         <p id = 'login_for_lemon'>Login for LEMON</p>
         <form method = 'POST' action = ''>

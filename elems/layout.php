@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/elems/elems/navigation/style.css?v=3">
     <link rel="stylesheet" type="text/css" href="/elems/elems/post_a_comment/style.css?v=3">
     <link rel="stylesheet" type="text/css" href="/elems/elems/elem_about_syte/style.css?v=5">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/autorization/style.css?v=5">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/preview_of_post/style.css?v=5">
     <!-- Шрифты -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">

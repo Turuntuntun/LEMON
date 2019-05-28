@@ -1,0 +1,107 @@
+.login_block{
+    width: 326px;
+    height: 405px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.menu_side_log{
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 27px;
+    margin-bottom: 7px;
+    width: 265px;
+}
+.menu_side_log p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.login_small_hr{
+    width: 265px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+.logg_block{
+    width: 265px;
+    margin: 0 auto;
+}
+#login_for_lemon{
+    font-size: 16px;
+    font-family: "Josefin Sans",serif;
+    font-weight: 300;
+}
+.logg_block input[type='text'],.logg_block input[type='password']{
+    width: 265px;
+    height: 38px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    outline: none;
+    font-style: italic;
+    border:1px solid #c2c2c2;
+}
+.logg_block input[type='text']:focus,.logg_block input[type='password']:focus{
+    box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.120);
+    border:1px solid #c2c2c2;
+}
+.remember_block{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+}
+.logg_checkbox{
+    display: flex;
+}
+.remember_block p ,.remember_block a{
+    font-size: 12px;
+    font-family: "Josefin Sans",serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.541);
+}
+.remember_block a{
+    text-decoration: none;
+}
+input[name='remember']{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+}
+.subm_cent{
+    display: flex;
+    justify-content:center;
+}
+.face_goog{
+    width: 68px;
+    margin: 0 auto;
+    margin-top:22px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logg_block input[type='submit']{
+    width: 105px;
+    height: 25px;
+    background-color: white;
+    outline: none;
+    border:1px solid #c2c2c2;
+    cursor:pointer;
+    margin-top: 32px;
+}
+.dont{
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Josefin Sans",serif;
+    color: rgba(0, 0, 0, 0.541);
+    text-decoration: none;
+}
+.adont{
+    text-align: center;
+    margin-top:15px;
+    font-style: italic;
+}
