@@ -1,6 +1,6 @@
 * {
- margin: 0;
- padding: 0;
+	margin: 0;
+	padding: 0;
 }
 body{
 	background-color: #eaeaea;
@@ -173,7 +173,6 @@ nav{
 	font-size: 20px;
 	font-style: italic;
 }
-
 .side_rec_one_logo{
 	width: 49px;
 	height: 45px;
@@ -519,92 +518,6 @@ nav{
 	margin: 0 auto;
 	display: flex;
 	justify-content:space-between;
-}
-
-.reg{
-	width: 310px;
-	height: 540px;
-	background-color: white;
-	box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
-}
-.logg .meny_side_rep, .logg .smal_hr2,.reg .meny_side_rep, .reg .smal_hr2{
-	width: 265px;
-}
-.logg .smal_hr2,.reg .smal_hr2{
-	margin-bottom: 26px;
-}
-.logg_block input[type='text'],.logg_block input[type='password']{
-	width: 265px;
-	height: 38px;
-	padding-left: 20px;
-	box-sizing: border-box;
-	margin-top: 20px;
-	outline: none;
-	font-style: italic;
-	border:1px solid #c2c2c2;
-}
-.logg_block input[type='text']:focus,.logg_block input[type='password']:focus{
-	box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.120);
-    border:1px solid #c2c2c2;
-}
-.logg_block input[type='submit']{
-    width: 105px;
-    height: 25px;
-    background-color: white;
-    outline: none;
-    border:1px solid #c2c2c2;
-    cursor:pointer;
-    margin-top: 32px; 
-}
-.subm_cent{
-	display: flex;
-	justify-content:center;
-}
-#login_for_lemon,#sign_in_for{
-	font-size: 16px;
-	font-family: "Josefin Sans",serif;
-    font-weight: 300;
-}
-.logg_facebook{
-	width: 12px;
-	height: 22px;
-	background-image: url('images/facebook_icon.png');
-}
-.logg_google{
-	width: 29px;
-	height: 19px;
-	background-image: url('images/google_icon.png');
-}
-.face_goog{
-	width: 68px;
-	margin: 0 auto;
-	margin-top:22px;
-	display: flex;
-	justify-content:space-between;
-	align-items:center;
-}
-.byjoin{
-    font-size: 14px;
-    font-family: "Josefin Sans",serif;
-    color: rgba(0, 0, 0, 0.541);
-    margin-top: 25px;
-    font-style: italic;
-}
-.comments{
-	width: 840px;
-	height: 760px;
-	background-color: white;
-	margin:0 auto;
-	margin-top:50px;
-    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5); 
-
-}
-.comments .meny_side_rep, .comments .smal_hr2{
-	width: 730px;
-	margin-bottom: 17px;
-}
-.com{
-	font-size: 24px;
 }
 /*Низ*/
 footer{

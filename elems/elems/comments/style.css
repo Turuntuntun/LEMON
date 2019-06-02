@@ -1,0 +1,39 @@
+.comments{
+    width: 840px;
+    height: 760px;
+    background-color: white;
+    margin:0 auto;
+    margin-top:50px;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+
+}
+.comments .list_of_comments{
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+.void{
+    width: 1px;
+    height: 1px;
+}
+.comments .list_of_comments, .comments .hr{
+    width: 730px;
+    margin-bottom: 17px;
+}
+.comments .list_of_comments p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.com{
+    font-size: 24px;
+}
+.comments .hr{
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+}

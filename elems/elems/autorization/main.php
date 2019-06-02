@@ -1,10 +1,10 @@
-<div class = 'login_block'>
-    <div class = 'menu_side_log'>
+<div class = 'autorization'>
+    <div class = 'title'>
         <p>Login</p>
     </div>
-    <hr class = 'login_small_hr'>
-    <div class = 'logg_block'>
-        <p id = 'login_for_lemon'>Login for LEMON</p>
+    <hr class = 'hr'>
+    <div class = 'block'>
+        <p id = 'autorization_block_title'>Login for LEMON</p>
         <form method = 'POST' action = ''>
             <input type = 'text' placeholder = 'email or login' name = 'log_email'>
             <input type = 'password' placeholder = 'password' name = 'log_pass'>
@@ -19,10 +19,10 @@
                 <input type = 'submit' value = 'LOGIN'>
             </div>
         </form>
-        <div class = 'face_goog'>
-            <div class = 'logg_facebook'>
+        <div class = 'other_autorization_block'>
+            <div class = 'facebook'>
             </div>
-            <div class = 'logg_google'>
+            <div class = 'google'>
             </div>
         </div>
         <div class = 'adont'>

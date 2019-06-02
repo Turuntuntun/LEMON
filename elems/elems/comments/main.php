@@ -1,10 +1,10 @@
  <div class = 'comments'>
 	<div class = 'void'>
 	</div>
-	<div class = 'meny_side_rep'>
+	<div class = 'list_of_comments'>
 		<p>
             <span  class = 'com'>Comments</span>
         </p>
 	</div>
-	<hr class = 'smal_hr2'>
+	<hr class = 'hr'>
 </div>

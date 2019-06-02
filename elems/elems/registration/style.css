@@ -1,0 +1,88 @@
+.registration{
+    width: 310px;
+    height: 540px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.registration_title{
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+.registration_title p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.registration_hr{
+    width: 265px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+.registration_block{
+    width: 265px;
+    margin: 0 auto;
+}
+#registration_block_title{
+    font-size: 16px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+}
+.registration_block input[type='text'],.registration_block input[type='password']{
+    width: 265px;
+    height: 38px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    outline: none;
+    font-style: italic;
+    border:1px solid #c2c2c2;
+}
+.registration_block input[type='text']:focus,.registration_block input[type='password']:focus{
+    box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.120);
+    border:1px solid #c2c2c2;
+}
+.registration_block input[type='submit']{
+    width: 105px;
+    height: 25px;
+    background-color: white;
+    outline: none;
+    border:1px solid #c2c2c2;
+    cursor:pointer;
+    margin-top: 32px;
+}
+.submit_on_center{
+    display: flex;
+    justify-content:center;
+}
+.other_regisration_block{
+    width: 68px;
+    margin: 0 auto;
+    margin-top:22px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.other_regisration_block .facebook{
+    width: 12px;
+    height: 22px;
+    background-image: url('images/facebook_icon.png');
+}
+.other_regisration_block .google{
+    width: 29px;
+    height: 19px;
+    background-image: url('images/google_icon.png');
+}
+.byjoin{
+    font-size: 14px;
+    font-family: "Josefin Sans",serif;
+    color: rgba(0, 0, 0, 0.541);
+    margin-top: 25px;
+    font-style: italic;
+}

@@ -1,10 +1,10 @@
-.login_block{
+.autorization{
     width: 326px;
     height: 405px;
     background-color: white;
     box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
 }
-.menu_side_log{
+.autorization .title{
     display: flex;
     margin: 0 auto;
     justify-content:space-between;
@@ -12,12 +12,12 @@
     margin-bottom: 7px;
     width: 265px;
 }
-.menu_side_log p{
+.autorization .title p{
     font-family: "Josefin Sans",serif;
     font-size: 20px;
     font-style: italic;
 }
-.login_small_hr{
+.autorization .hr{
     width: 265px;
     background-color: rgb(85, 85, 85);
     opacity: 0.2;
@@ -25,16 +25,16 @@
     margin: 0 auto;
     margin-bottom: 26px;
 }
-.logg_block{
+.autorization .block{
     width: 265px;
     margin: 0 auto;
 }
-#login_for_lemon{
+#autorization_block_title{
     font-size: 16px;
     font-family: "Josefin Sans",serif;
     font-weight: 300;
 }
-.logg_block input[type='text'],.logg_block input[type='password']{
+.autorization .block input[type='text'],.autorization .block input[type='password']{
     width: 265px;
     height: 38px;
     padding-left: 20px;
@@ -44,39 +44,39 @@
     font-style: italic;
     border:1px solid #c2c2c2;
 }
-.logg_block input[type='text']:focus,.logg_block input[type='password']:focus{
+.autorization .block input[type='text']:focus,.autorization .block input[type='password']:focus{
     box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.120);
     border:1px solid #c2c2c2;
 }
-.remember_block{
+.autorization .remember_block{
     display: flex;
     justify-content:space-between;
     margin-top: 15px;
 }
-.logg_checkbox{
+.autorization .remember_block .logg_checkbox{
     display: flex;
 }
-.remember_block p ,.remember_block a{
+.autorization .remember_block p ,.autorization .remember_block a{
     font-size: 12px;
     font-family: "Josefin Sans",serif;
     font-weight: 400;
     font-style: italic;
     color: rgba(0, 0, 0, 0.541);
 }
-.remember_block a{
+.autorization .remember_block a{
     text-decoration: none;
 }
-input[name='remember']{
+.autorization input[name='remember']{
     background-color: white;
     width: 10px;
     height: 10px;
     margin-left: 3px;
 }
-.subm_cent{
+.autorization .subm_cent{
     display: flex;
     justify-content:center;
 }
-.face_goog{
+.autorization .other_autorization_block{
     width: 68px;
     margin: 0 auto;
     margin-top:22px;
@@ -84,7 +84,7 @@ input[name='remember']{
     justify-content:space-between;
     align-items:center;
 }
-.logg_block input[type='submit']{
+.autorization .block input[type='submit']{
     width: 105px;
     height: 25px;
     background-color: white;
@@ -93,14 +93,32 @@ input[name='remember']{
     cursor:pointer;
     margin-top: 32px;
 }
-.dont{
+.other_autorization_block{
+    width: 68px;
+    margin: 0 auto;
+    margin-top:22px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.other_autorization_block .facebook{
+    width: 12px;
+    height: 22px;
+    background-image: url('images/facebook_icon.png');
+}
+.other_autorization_block .google{
+    width: 29px;
+    height: 19px;
+    background-image: url('images/google_icon.png');
+}
+.autorization .dont{
     margin: 0 auto;
     font-size: 16px;
     font-family: "Josefin Sans",serif;
     color: rgba(0, 0, 0, 0.541);
     text-decoration: none;
 }
-.adont{
+.autorization .adont{
     text-align: center;
     margin-top:15px;
     font-style: italic;
