@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8">
     <!-- Стили шаблона -->
-    <link rel="stylesheet" type="text/css" href="../css/styles.css?v=1">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css?v=3">
     <!-- Стили елементов -->
     <link rel="stylesheet" type="text/css" href="/elems/elems/list_of_post/style.css?v=0">
     <link rel="stylesheet" type="text/css" href="/elems/elems/head_menu/style.css?v=3">

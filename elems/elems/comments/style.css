@@ -15,7 +15,7 @@
     margin-top: 27px;
     margin-bottom: 7px;
 }
-.void{
+.comments .void{
     width: 1px;
     height: 1px;
 }
@@ -28,7 +28,7 @@
     font-size: 20px;
     font-style: italic;
 }
-.com{
+.comments .com{
     font-size: 24px;
 }
 .comments .hr{

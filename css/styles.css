@@ -136,9 +136,6 @@ nav{
 }
 .radio2{
 	position: absolute;
-   -moz-user-select: none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
    user-select: none;
    cursor: default;
    margin: 0 auto;
@@ -312,7 +309,6 @@ nav{
 	background-color: white;
 	box-shadow: 0 0 9px rgba(128, 128, 128, 0.5); 
 }
-
 .calend{
 	width: 290px;
 	height: 370px;
@@ -442,15 +438,11 @@ nav{
 }
 .timeline_block_one .time_type{
 	font-weight: 300;
-   -webkit-transform: rotate(-90deg); /* не забываем префиксные свойства */
-   -moz-transform: rotate(-90deg);
-   -ms-transform: rotate(-90deg);
-   -o-transform: rotate(-90deg);
-   transform: rotate(-90deg);
-   font-size: 18px;
-   font-family: "Josefin Sans",serif;
-   color: rgba(85, 85, 85, 0.8);
-   width: 20px;
+	transform: rotate(-90deg);
+    font-size: 18px;
+    font-family: "Josefin Sans",serif;
+    color: rgba(85, 85, 85, 0.8);
+    width: 20px;
 }
 .timeline_big_block{
 	width: 200px;
@@ -480,17 +472,12 @@ nav{
 }
 .timeline_smal_block p{
 	font-weight: 100;
-   -webkit-transform: rotate(-90deg); /* не забываем префиксные свойства */
-   -moz-transform: rotate(-90deg);
-   -ms-transform: rotate(-90deg);
-   -o-transform: rotate(-90deg);
-   transform: rotate(-90deg);
-   font-size: 15px;
-   font-family: "Josefin Sans",serif;
-   color: rgba(85, 85, 85);
-   width: 10px;
+    transform: rotate(-90deg);
+    font-size: 15px;
+    font-family: "Josefin Sans",serif;
+    color: rgba(85, 85, 85);
+    width: 10px;
 }
-
 #smal_hr_timeline{
 	width: 200px;
 	background-color: rgb(85, 85, 85);
