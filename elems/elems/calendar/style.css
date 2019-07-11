@@ -1,0 +1,41 @@
+.calendar{
+    width: 290px;
+    height: 370px;
+    background-color: white;
+    margin-top: 42px;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.calendar .title{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    margin-top:25px;
+}
+.calendar .title p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.calendar .hr{
+    width: 246px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+}
+.calendar .void{
+    width: 1px;
+    height: 1px;
+}
+.calendar table{
+    width: 246px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    margin-top: 25px;
+}
+.calendar td{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
