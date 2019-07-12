@@ -6,7 +6,7 @@
     margin-bottom: 88px;
     background-image: url("images/rec1.png")
 }
-.photo_icon{
+.full_post .icon{
     position: absolute;
     margin-left: 458px;
     margin-top: 10px;
@@ -14,16 +14,40 @@
     height: 63px;
     background-image: url("images/Photo_Icon.png")
 }
-.photo_icon:hover{
+.full_post .icon:hover{
     box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
     cursor:pointer;
 }
-.recipe_smal_zag{
+.full_post .block{
+    width: 510px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 32px;
+    white-space: nowrap;
+}
+.full_post .title{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #055555;
+}
+.full_post .small{
     margin-top: 15px;
     display: flex;
     align-items:center;
 }
-.icon_easy{
+.full_post .time{
+    margin-right: 3px;
+    width: 11px;
+    height: 12px;
+    background-image: url("images/Clock_Icon.png");
+}
+.full_post .text{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 85, 85);
+    z-index: 66;
+}
+.full_post .easy{
     width: 26px;
     height: 24px;
     background-image: url('images/Easy_Icon.png');
@@ -31,43 +55,36 @@
     background-size: 75%;
     margin-left: 8px;
 }
-#easy{
-    font-size: 18px;
+.full_post input[type="button"]{
+    margin-left: auto;
+    padding: 5px 14px;
+    font-size: 12px;
+    background-color:transparent;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
 }
-#rec_mins{
-    font-size: 16px;
-}
-.recipe_recipe{
+.full_post .recipe{
     margin-top: 15px;
     padding-right: 25px;
     overflow-y: scroll;
     height: 280px;
 }
-.recipe_text{
-    width: 510px;
-    position: absolute;
-    margin-left: 570px;
-    margin-top: 32px;
-    white-space: nowrap;
+.full_post .direct,
+.full_post .ingridients,
+.full_post .full{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.recipe_zag{
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    color: #055555;
-}
-.recipe_smal_zag {
-    width: 480px;
-}
-.recipe_smal_zag input[type="button"]{
-    margin-left: auto;
-}
-.ingridients{
+.full_post .ingridients{
     margin-top: -15px;
     height: 100px;
     white-space: pre-line;
     text-align: justify;
 }
-.full_recipe{
+.full_post .direct{
+    font-weight: bold;
+}
+.full_post .full{
     white-space: pre-line;
     text-align: justify;
     height: 200px;
