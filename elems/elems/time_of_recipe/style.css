@@ -1,0 +1,109 @@
+.timeline{
+    width: 290px;
+    height: 430px;
+    margin-left: 60px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.timeline .void{
+    width: 1px;
+    height: 1px;
+}
+.timeline .title{
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+.timeline .title p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.timeline .icon{
+    width: 94px;
+    height: 15px;
+    background-image: url(images/side_rep_Icons.png);
+}
+.timeline .hr{
+    width: 246px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+}
+.timeline .headline{
+    width: 246px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.timeline .headline p{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(5, 85, 85);
+}
+.timeline .block{
+    width: 200px;
+    margin:  0 auto;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.timeline .subBlock{
+    display: flex;
+    align-items: flex-end;
+}
+.timeline .time{
+    font-weight: 300;
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-family: "Josefin Sans",serif;
+    color: rgba(85, 85, 85, 0.8);
+    width: 20px;
+}
+.timeline .small p{
+    font-weight: 100;
+    transform: rotate(-90deg);
+    font-size: 15px;
+    font-family: "Josefin Sans",serif;
+    color: rgba(85, 85, 85);
+    width: 10px;
+}
+.timeline .easy{
+    width: 9px;
+    height: 65px;
+    background-color: #87d0c5;
+}
+.timeline .middle{
+    width: 9px;
+    height: 97px;
+    background-color: #0d5959;
+}
+.timeline .long{
+    width: 9px;
+    height: 130px;
+    background-color: #b50051;
+}
+.timeline .smallHr{
+    width: 200px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.timeline .under{
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.timeline .under p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Josefin Sans",serif;
+    color: rgb(106, 106, 106);
+    line-height: 1.2;
+}
