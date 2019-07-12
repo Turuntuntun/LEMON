@@ -1,0 +1,104 @@
+.target{
+    margin-left: 55px;
+    width: 289px;
+    height: 468px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.target div.title{
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+.target .title p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.target .icon{
+    width: 94px;
+    height: 15px;
+    background-image: url(images/side_rep_Icons.png);
+}
+.target .hr{
+    width: 246px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+}
+.target .headline{
+    width: 246px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.target .headline p{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(5, 85, 85);
+}
+.target .block{
+    width: 246px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+}
+.target #first{
+    margin-top: 45px;
+}
+.target .background{
+    width: 54px;
+    height: 54px;
+    background-color: black;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+}
+.target #first .background{
+    background-image:  linear-gradient(110deg,  #D3D3D3 62%,  #8B0000 63%);
+}
+.target #second .background{
+    background-image:  linear-gradient(40deg,  #D3D3D3 30%,   #008B8B 31%);
+}
+.target #third .background{
+    background-image:  linear-gradient(180deg,  #D3D3D3 50%,   #00CED1 51%);
+}
+.target .border{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+}
+.target .border p{
+    font-family: 'Josefin Sans', serif;
+    color: rgb(149, 149, 149);
+    font-size: 21px;
+    font-weight: 300;
+}
+.target .subBlock{
+    width: 145px;
+    margin-left: 20px;
+}
+.target p.title{
+    font-size: 18px;
+    font-family: 'Josefin Sans', serif;
+    color: rgb(50, 50, 50);
+    font-weight: 100;
+}
+.target p.text{
+    margin-top: 4px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', serif;
+    color: rgba(0, 0, 0, 0.800);
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 100;
+}
