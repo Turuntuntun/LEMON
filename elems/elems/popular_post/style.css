@@ -1,0 +1,85 @@
+.popular{
+    width: 290px;
+    height: 349px;
+    background-image: url(images/popular_now.png);
+    margin-left: 60px;
+    margin-top: 10px;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.popular div.title{
+    margin-left: 17px;
+    margin-top: 26px;
+}
+.popular .title p{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #921026;
+}
+.popular .hr{
+    background-color: rgb(255, 255, 255);
+    width: 251px;
+    height: 2px;
+    z-index: 159;
+    border:none;
+    margin-left: 17px;
+}
+.popular .headline{
+    font-family: 'Josefin Sans', serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 17px;
+    font-weight: 800;
+}
+.popular .text{
+    margin-left: 17px;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.popular .block{
+    display:flex;
+    margin-left: 18px;
+}
+.popular input[type = 'button']{
+    margin-right: 10px;
+    padding: 5px 14px;
+    font-size: 12px;
+    background-color:transparent;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    outline: none;
+}
+.popular .under{
+    display: flex;
+    align-items:center;
+}
+.popular .time{
+    margin-right: 3px;
+    width: 11px;
+    height: 12px;
+    background-image: url("images/Clock_Icon.png");
+}
+.popular .under span{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 85, 85);
+    z-index: 66;
+}
+.popular .comment{
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    width: 13px;
+    height: 11px;
+    background-image: url("images/Comment_Icon.png");
+}
+.popular .viem{
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 1px;
+    width: 13px;
+    height: 9px;
+    background-image: url("images/View_Icon.png");
+}
