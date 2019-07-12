@@ -1,0 +1,43 @@
+.tags{
+    width: 290px;
+    height: 162px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+    margin-top: 78px;
+}
+.tags .void{
+    width: 1px;
+    height: 1px;
+}
+.tags .title{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    margin-top:25px;
+}
+.tags .title p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.tags .hr{
+    width: 246px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin: 0 auto;
+}
+.tags .tags_list {
+    width: 250px;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.tags .tags_list p{
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Josefin Sans",serif;
+    font-weight: 100;
+    margin-right: 7px;
+}
