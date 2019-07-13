@@ -1,0 +1,80 @@
+.postsForUser{
+    margin-left: 90px;
+    margin-top:10px;
+    width: 290px;
+    height: 425px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
+}
+.postsForUser .title{
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content:space-between;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+.postsForUser .title p{
+    font-family: "Josefin Sans",serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.postsForUser .icon{
+    width: 94px;
+    height: 15px;
+    background-image: url(images/side_rep_Icons.png);
+}
+.postsForUser .hr{
+    width: 250px;
+    margin: 0 auto;
+}
+.postsForUser .type{
+    display: flex;
+    margin: 0 auto;
+    width: 184px;
+    justify-content:space-between;
+    font-family: "Josefin Sans",serif;
+    font-size: 12px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.postsForUser .type div:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.postsForUser .block{
+    width: 250px;
+    margin: 0 auto;
+}
+.postsForUser .recipe{
+    display: flex;
+    margin-top: 33px;
+}
+.postsForUser .img{
+    width: 49px;
+    height: 45px;
+}
+.postsForUser .text{
+    width: 200px;
+    margin-left: 18px;
+    font-size: 12px;
+    font-family: "Josefin Sans",serif;
+}
+.postsForUser .bold{
+    font-weight: bold;
+}
+.postsForUser .big{
+    font-size: 16px;
+    font-weight: 600;
+}
+.postsForUser input[type = 'button']{
+    margin-left: 160px;
+    margin-top: 30px;
+    padding: 5px 14px;
+    font-size: 12px;
+    background-color:transparent;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    outline: none;
+}
