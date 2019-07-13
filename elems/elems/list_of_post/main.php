@@ -29,23 +29,24 @@
     $mimetype = 'image/jpeg';
 ?>
 
-<div class = "recipees">
-    <?foreach ($data as $value){
+<div class = "listPost">
+    <?
+    foreach ($data as $value){
         ?>
-        <div class = "box">
+        <div class = "block">
             <?if(!empty($value['img'])){?>
                 <img src="data:<?=$mimetype?>;base64,<?= base64_encode($value['img'])?>">
             <?}else{?>
                  <img src="elems/elems/list_of_post/images/no-photo-big.gif">
             <?}?>
-            <p class = "zag"><?=$value['name']?></p>
-            <div class = "small_zag">
-               <div class = "icon_time"></div>
-               <span class = "mins"><?=$value['time'].'mins'?> |</span>
-               <div class = "comment_icon"></div>
-               <span class = "mins"><?=$value['count_comments']?></span>
-               <div class = "viem_icon"></div>
-               <span class ="mins"><?=$value['count_view']?></span>
+            <a href = '' class = "title"><?=$value['name']?></a>
+            <div class = "smallBlock">
+               <div class = "time"></div>
+               <span class = "text"><?=$value['time'].'mins'?> |</span>
+               <div class = "commen"></div>
+               <span class = "text"><?=$value['count_comments']?></span>
+               <div class = "viem"></div>
+               <span class ="text"><?=$value['count_view']?></span>
             </div>
         </div>
     <?

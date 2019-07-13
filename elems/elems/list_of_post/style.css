@@ -1,4 +1,4 @@
-.recipees{
+.listPost{
     display: flex;
     box-sizing: border-box;
     padding-top: 43px;
@@ -9,36 +9,41 @@
     margin: 0 auto;
     box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
 }
-.zag{
+.listPost .block{
+    margin-right: 38px;
+    display: inline-block;
+    width: 315px;
+}
+.listPost img{
+    margin-bottom: 20px;
+    width: 313px;
+    height: 208px;
+}
+.listPost .title{
     font-weight: lighter;
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(0, 0, 0);;
     z-index: 64;
-    margin-bottom: 7px;
+    text-decoration: none;
 }
-.box img{
-    margin-bottom: 20px;
-    width: 313px;
-    height: 208px;
+.listPost .smallBlock{
+    display: flex;
+    align-items:center;
 }
-.icon_time{
+.listPost .time{
     margin-right: 3px;
     width: 11px;
     height: 12px;
     background-image: url("images/Clock_Icon.png");
 }
-.small_zag{
-    display: flex;
-    align-items:center;
-}
-.mins {
+.listPost .text {
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(85, 85, 85);
     z-index: 66;
 }
-.comment_icon{
+.listPost .comment{
     margin-top: 1px;
     margin-left: 5px;
     margin-right: 1px;
@@ -46,16 +51,11 @@
     height: 11px;
     background-image: url("images/Comment_Icon.png");
 }
-.viem_icon{
+.listPost .viem{
     margin-top: 2px;
     margin-left: 4px;
     margin-right: 1px;
     width: 13px;
     height: 9px;
     background-image: url("images/View_Icon.png");
-}
-.box{
-    margin-right: 38px;
-    display: inline-block;
-    width: 315px;
 }
