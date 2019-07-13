@@ -1,0 +1,16 @@
+.sidebar{
+    width: 1142px;
+    height: 1170px;
+    margin: 0 auto;
+}
+.side_line1{
+    display: flex;
+    align-items: flex-start;
+}
+.side_line2{
+    display: flex;
+    margin-top: -28px;
+}
+.tags_calend{
+    margin-left: 100px;
+}
