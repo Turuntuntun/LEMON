@@ -1,0 +1,69 @@
+.not_found{
+    width: 540px;
+    height: 540px;
+    background-image: url('images/404.png');
+}
+.not_found div.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 436px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.not_found .hr{
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    margin-top: 5px;
+}
+.not_found .block{
+    width: 200px;
+    margin:0 auto;
+    margin-top: 160px;
+}
+.not_found p{
+    text-align: center;
+}
+.not_found p.title{
+    font-size: 34px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 10px;
+    z-index: 106;
+}
+.not_found .headline, .not_found .text {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(169, 169, 169);
+    text-align: center;
+    z-index: 105;
+}
+.not_found .icon{
+    width: 31px;
+    height: 25px;
+    background-image: url('images/smile.png');
+    margin:0 auto;
+    margin-top: 15px;
+}
+.not_found .back{
+    width: 100px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.not_found .back input[type = 'button']{
+    padding: 5px 40px;
+    font-size: 12px;
+    background-color:transparent;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+}
+.not_found input[type="button"]:active{
+    outline: none;
+    border: 1px solid #4b4b4b;
+    background-color: #bdb8b9;
+}
+.not_found input[type="button"]:focus{
+    outline: none;
+}
