@@ -1,4 +1,4 @@
-.heropage{
+.preview{
     margin: 0 auto;
     height: 460px;
     width: 1142px;
@@ -7,62 +7,42 @@
     margin-top: 80px;
     margin-bottom: 100px;
 }
-.heropage .block{
+.preview .block{
     display: block;
     position: relative;
     margin-left: 100px;
     top: 48px;
 }
-.third_logo{
+.preview .subLogo{
     width: 252px;
     height: 105px;
     background-image: url('images/Logo.png');
     margin-bottom:35px;
 }
-h2{
+.preview h2{
     color:#921026;
 }
-.firsttext{
+.preview .text{
     margin-top: 29px;
     width: 325px;
     margin-bottom: 27px;
 }
-input[type="button"]{
+.preview input[type="button"]{
     padding: 3px 7px;
     font-size: 12px;
     background-color:transparent;
     border: 1px solid #c2c2c2;
     cursor: pointer;
 }
-input[type="button"]:active{
+.preview input[type="button"]:active{
     outline: none;
     border: 1px solid #4b4b4b;
     background-color: #bdb8b9;
 }
-input[type="button"]:focus{
+.preview input[type="button"]:focus{
     outline: none;
 }
-input[type = "radio"]{
-    display: none;
-}
-input[type="radio"]:checked + label div{
-    background-color: #555555;
-}
-label{
-    width: 7px;
-    height: 7px;
-    border-radius: 10px;
-}
-label div{
-    cursor:pointer;
-    display: inline-block;
-    margin-right: 5px;
-    width: 7px;
-    height: 7px;
-    background-color: white;
-    border-radius: 10px;
-}
-.radio1{
+.preview .radio{
     position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
     bottom: -50px; /* прикрепить к верху родителя */
     right: 30px;
@@ -71,4 +51,24 @@ label div{
     -webkit-user-select: none;
     user-select: none;
     cursor:default;
+}
+.preview input[type = "radio"]{
+    display: none;
+}
+.preview input[type="radio"]:checked + label div{
+    background-color: #555555;
+}
+.preview label{
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+}
+.preview label div{
+    cursor:pointer;
+    display: inline-block;
+    margin-right: 5px;
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 10px;
 }
