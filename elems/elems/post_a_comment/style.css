@@ -1,4 +1,4 @@
-.postacomment{
+.postComment{
     width: 840px;
     height: 180px;
     background-color: white;
@@ -6,20 +6,35 @@
     box-shadow: 0 0 9px rgba(128, 128, 128, 0.5);
     margin-top: 120px;
 }
-.post_zag{
+.void{
+    width: 1px;
+    height: 1px;
+}
+.postComment .title{
     display: flex;
     width: 745px;
     justify-content:space-between;
     margin:0 auto;
     margin-top:25px;
 }
-.post_a_com_zag{
+.postComment .text{
     font-size: 24px;
     font-family: "Josefin Sans",serif;
     color: rgb(0, 0, 0);
     font-style: italic;
 }
-.gray_post{
+.postComment .share p{
+    font-size: 16px;
+    color:black;
+    font-style: italic;
+    font-family: "Josefin Sans",serif;
+    color:black;
+}
+.postComment .share a{
+    text-decoration: none;
+    color:black;
+}
+.postComment .block{
     width: 753px;
     height: 85px;
     background-color: #f6f6f6;
@@ -31,7 +46,12 @@
     padding:0px 20px;
     box-sizing: border-box;
 }
-.post_a_comment input[type='submit']{
+.postComment .postLogo{
+    width: 58px;
+    height: 58px;
+    background-image: url(images/chi-chi_autor.png);
+}
+.postComment input[type='submit']{
     width: 81px;
     height: 35px;
     background-color: #383737;
@@ -39,7 +59,7 @@
     border:1px solid #c2c2c2;
     cursor: pointer;
 }
-.post_a_comment input[type='text']{
+.postComment input[type='text']{
     width: 500px;
     padding-left: 20px;
     height: 33px;
@@ -47,22 +67,7 @@
     outline: none;
     box-sizing: border-box;
 }
-.post_a_comment input[type='text']:focus{
+.postComment input[type='text']:focus{
     box-shadow: inset 3px 3px 5px 1px rgba(0, 0, 0, 0.120);
 }
-.faceb_twit p{
-    font-size: 16px;
-    color:black;
-    font-style: italic;
-    font-family: "Josefin Sans",serif;
-    color:black;
-}
-.faceb_twit a{
-    text-decoration: none;
-    color:black;
-}
-.post_logo{
-    width: 58px;
-    height: 58px;
-    background-image: url(images/chi-chi_autor.png);
-}
+

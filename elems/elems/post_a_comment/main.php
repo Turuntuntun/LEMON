@@ -1,20 +1,20 @@
-<div class = 'postacomment'>
+<div class = 'postComment'>
 	<div class = 'void'>
 	</div>
-	<div class = 'post_zag'>
-		<p class = 'post_a_com_zag'>Post a Comment</p>
-		<div class = 'faceb_twit'>
+	<div class = 'title'>
+		<p class = 'text'>Post a Comment</p>
+		<div class = 'share'>
 		    <p><a href = ''>Facebook</a> / <a href = ''>Twitter</a>
 	    </div>
 	</div>
-      <div class = 'gray_post'>
-      	<div class = 'post_logo'>
-      	</div>
-      	<div class = 'post_a_comment'>
-      		<form action = '' method = 'GET'>
-      			<input type = 'text'>
-      			<input type = 'submit' value = 'POST'>
-      		</form>
-      	</div>
-      </div>
+    <div class = 'block'>
+        <div class = 'postLogo'>
+        </div>
+        <div>
+            <form action = '' method = 'GET'>
+                <input type = 'text'>
+                <input type = 'submit' value = 'POST'>
+            </form>
+        </div>
+    </div>
 </div>
