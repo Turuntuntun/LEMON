@@ -1,0 +1,116 @@
+.chi-chi{
+    margin-left: 43px;
+    box-sizing: border-box;
+    padding-top:30px;
+    width: 311px;
+    height: 371px;
+    background-image: url(images/Base_chi-chi.png);
+}
+.chi-chi div.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #055555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.chi-chi .hr{
+    background-color: rgb(85, 85, 85);
+    opacity: 0.2;
+    height: 1px;
+    width: 250px;
+    margin: 0 auto;
+}
+.chi-chi .block{
+    margin-top:7px;
+    margin-left: 20px;
+    display: flex;
+    width: 380px;
+    height: 70px;
+}
+.chi-chi .author{
+    width: 58px;
+    height: 58px;
+    background-image: url(images/chi-chi_autor.png);
+}
+.chi-chi .subBlock{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.chi-chi .subBlock p{
+    font-size: 16px;
+    font-family: "Josefin Sans",serif;
+    line-height: 1.1;
+}
+.chi-chi .subBlock p:last-of-type{
+    font-weight: bold;
+}
+.chi-chi .headline{
+    display: flex;
+    align-items:center;
+}
+.chi-chi .time{
+    margin-right: 3px;
+    width: 11px;
+    height: 12px;
+    background-image: url("images/Clock_Icon.png");
+}
+.chi-chi .text{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 85, 85);
+    z-index: 66;
+}
+.chi-chi .comment{
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    width: 13px;
+    height: 11px;
+    background-image: url("images/Comment_Icon.png");
+}
+.chi-chi .viem{
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 1px;
+    width: 13px;
+    height: 9px;
+    background-image: url("images/View_Icon.png");
+}
+.chi-chi .back{
+    position: relative;
+    width: 289px;
+    height: 204px;
+    background-image: url(images/fon_chi_chi.png);
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.chi-chi .radio{
+    position: absolute;
+    user-select: none;
+    cursor: default;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: 113px;
+}
+.chi-chi input[type = "radio"]{
+    display: none;
+}
+.chi-chi input[type="radio"]:checked + label div{
+    background-color: #555555;
+}
+.chi-chi label{
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+}
+.chi-chi label div{
+    cursor:pointer;
+    display: inline-block;
+    margin-right: 5px;
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 10px;
+}

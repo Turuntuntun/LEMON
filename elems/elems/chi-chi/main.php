@@ -1,31 +1,31 @@
 <div class = 'chi-chi'>
-    <div class = 'chi-chi_zag'>
+    <div class = 'title'>
         <p >Chi-Chi or Chichi</p>
     </div>
-    <hr class = 'chi-chi_hr'>
-    <div class = 'chi-chi_autor'>
-        <div class = 'chi_chi_logo'>
+    <hr class = 'hr'>
+    <div class = 'block'>
+        <div class = 'author'>
         </div>
-        <div class = 'chi-chi_by'>
+        <div class = 'subBlock'>
             <p>Recipe by</p>
             <p>Smuckersreg Toppings</p>
-            <div class = "small_zag">
-                <div class = "icon_time"></div>
-                <span class = "mins">15mins |</span>
-                <div class = "comment_icon"></div>
-                <span class = "mins">12 </span>
-                <div class = "viem_icon"></div>
-                <span class ="mins">37</span>
+            <div class = "headline">
+                <div class = "time"></div>
+                <span class = "text">15mins |</span>
+                <div class = "comment"></div>
+                <span class = "text">12 </span>
+                <div class = "viem"></div>
+                <span class ="text">37</span>
             </div>
         </div>
     </div>
-    <div class = 'chi-chi_back'>
-        <div class = 'radio2'>
-            <input type = "radio" name = "chi-chi" id = "check6"><label for = "check6"><div></div></label>
-            <input type = "radio" name = "chi-chi" id = "check7"><label for = "check7"><div></div></label>
-            <input type = "radio" name = "chi-chi" id = "check8" checked><label for = "check8"><div></div></label>
-            <input type = "radio" name = "chi-chi" id = "check9"><label for = "check9"><div></div></label>
-            <input type = "radio" name = "chi-chi" id = "check10"><label for = "check10"><div></div></label>
+    <div class = 'back'>
+        <div class = 'radio'>
+            <input type = "radio" name = "chi-chi" id = "chi-chi1"><label for = "chi-chi1"><div></div></label>
+            <input type = "radio" name = "chi-chi" id = "chi-chi2"><label for = "chi-chi2"><div></div></label>
+            <input type = "radio" name = "chi-chi" id = "chi-chi3" checked><label for = "chi-chi3"><div></div></label>
+            <input type = "radio" name = "chi-chi" id = "chi-chi4"><label for = "chi-chi4"><div></div></label>
+            <input type = "radio" name = "chi-chi" id = "chi-chi5"><label for = "chi-chi5"><div></div></label>
         </div>
     </div>
 </div>
