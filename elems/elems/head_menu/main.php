@@ -1,5 +1,5 @@
-<nav>
-    <ul class = "nav">
+<nav class = 'headMenu'>
+    <ul class = "list">
         <li class = "menu_item" id ='first-child'>
             <a href="/">HOME</a>
         </li>
@@ -14,7 +14,7 @@
             </ul>
         </li>
         <li class = "menu_item" ><a href="">PHOTO GALERIES</a>
-            <ul id = 'li_li'>
+            <ul>
                 <li class = "menu_item"><a href="">NEW</a></li>
                 <li class = "menu_item"><a href="">TOP</a></li>
                 <li class = "menu_item"><a href="">RATEST</a></li>
