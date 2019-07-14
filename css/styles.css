@@ -73,19 +73,6 @@ footer{
 .foot_menu,.foot_nav{
 	display: flex;
 }
-.foot_menu{
-	list-style-type: none;
-	width: 410px;
-	justify-content:space-between;
-	margin-left: 100px;
-}
-.foot_menu_item a{
-    color: rgba(254, 254, 254, 0.502);
-	text-decoration: none;
-	font-size: 12px;
-	font-family: "Josefin Sans",serif;
-	font-weight: 100;
-}
 .foot_nav{
 	width: 1000px;
 	justify-content:space-between;

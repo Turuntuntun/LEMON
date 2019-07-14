@@ -29,6 +29,7 @@
     <link rel="stylesheet" type="text/css" href="/elems/elems/head_menu/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/complex_element/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/authorization_registrarion/style.css?v=<?=$rand?>">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/footer_menu/style.css?v=<?=$rand?>">
     <!-- Шрифты -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
