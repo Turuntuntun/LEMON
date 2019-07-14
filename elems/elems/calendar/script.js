@@ -3,11 +3,16 @@ $(document).ready(function() {
     let monthList = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
     let dayOfWeek = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     let dateCalendar = new Date();
+    let firstdateCalendar = new Date(dateCalendar.getFullYear(),dateCalendar.getMonth(),1);
+    let lastdateCalendar = new Date(dateCalendar.getFullYear(),dateCalendar.getMonth() + 1,0);
     let thisDate = {
-        'monthCalendar'    : dateCalendar.getMonth(),
-        'yearCalendar'     : dateCalendar.getFullYear(),
-        'dayCalendar'      : dateCalendar.getDate(),
-        'dayOfWeekalendar' : dateCalendar.getDay()
+        'monthCalendar'          : dateCalendar.getMonth(),
+        'yearCalendar'           : dateCalendar.getFullYear(),
+        'dayCalendar'            : dateCalendar.getDate(),
+        'lastDayCalendar'        : lastdateCalendar.getDate(),
+        'dayOfWeekCalendar'      : dateCalendar.getDay(),
+        'lastDayOfWeekCalendar'  : lastdateCalendar.getDay(),
+        'firstDayOfWeekCalendar' : firstdateCalendar.getDay()
     };
 
     let result = '';
@@ -20,5 +25,5 @@ $(document).ready(function() {
 
     $('.calendar span').text(thisDate.yearCalendar);
     $('.calendar table').html(result);
-    console.log(result);
+    console.log(thisDate.lastDayOfWeekalendar);
 });
