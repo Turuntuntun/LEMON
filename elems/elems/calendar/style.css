@@ -27,15 +27,38 @@
     width: 1px;
     height: 1px;
 }
+.calendar .date{
+    width: 246px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+}
 .calendar table{
     width: 246px;
-    height: 240px;
     margin: 0 auto;
-    background-color: gainsboro;
     margin-top: 25px;
+    user-select: none;
 }
-.calendar td{
+.calendar .date button{
+    width: 15px;
+}
+.calendar td,.calendar th{
     width: 30px;
     height: 30px;
     background-color: white;
+    text-align: center;
+    cursor: default;
+}
+.calendar th{
+    font-style: italic;
+    text-decoration: underline;
+}
+.calendar td:hover{
+    cursor: pointer;
+    background-color: rgba(54, 59, 64, 0.57);
+    color: #fff7d7;
+}
+.calendar .red{
+    color:red;
 }

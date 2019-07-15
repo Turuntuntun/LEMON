@@ -38,8 +38,8 @@
 	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script type="text/javascript" src = "../js/main.js"></script>
-    <script type="text/javascript" src = "../elems/elems/head_menu/script.js"></script>
-    <script type="text/javascript" src = "../elems/elems/calendar/script.js"></script>
+    <script type="text/javascript" src = "../elems/elems/head_menu/script.js?v=<?=$rand?>"></script>
+    <script type="text/javascript" src = "../elems/elems/calendar/script.js?v=<?=$rand?>"></script>
 	<title>LEMON</title>
 </head>
 <body>
