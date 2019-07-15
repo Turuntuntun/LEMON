@@ -6,13 +6,12 @@
     </div>
 
     <hr class = 'hr'>
-
     <div class = 'date'>
-        <button>
+        <button class = 'minus'>
             <
         </button>
         <span></span>
-        <button>
+        <button class = 'plus'>
             >
         </button>
     </div>
