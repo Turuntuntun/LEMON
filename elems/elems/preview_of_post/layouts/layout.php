@@ -11,13 +11,15 @@
         <input type = "button" value = "GET IT RECIPE"><br>
         <div class = "radio">
             <?
-            foreach ($resultPreview['path'] as $key => $value){
-                ?>
-                <input type = "radio" name = "slide" id = "preview<?=$key?>" value="<?=$key?>">
-                <label for = "preview<?=$key?>">
-                    <div></div>
-                </label>
-                <?
+            if (count($resultPreview['path']) > 1){
+                foreach ($resultPreview['path'] as $key => $value){
+                    ?>
+                    <input type = "radio" name = "slide" id = "preview<?=$key?>" value="<?=$key?>">
+                    <label for = "preview<?=$key?>">
+                        <div></div>
+                    </label>
+                    <?
+                }
             }
             ?>
         </div>
