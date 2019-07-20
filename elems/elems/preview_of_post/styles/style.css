@@ -2,7 +2,6 @@
     margin: 0 auto;
     height: 460px;
     width: 1142px;
-    background-image: url("images/Photo.png");
     background-repeat: no-repeat;
     margin-top: 80px;
     margin-bottom: 100px;
@@ -16,7 +15,7 @@
 .preview .subLogo{
     width: 252px;
     height: 105px;
-    background-image: url('images/Logo.png');
+    background-image: url('/elems/elems/preview_of_post/images/Logo.png');
     margin-bottom:35px;
 }
 .preview h2{
@@ -46,9 +45,6 @@
     position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
     bottom: -50px; /* прикрепить к верху родителя */
     right: 30px;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
     user-select: none;
     cursor:default;
 }
