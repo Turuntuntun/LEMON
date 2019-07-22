@@ -6,6 +6,12 @@
     margin-top: 80px;
     margin-bottom: 100px;
 }
+.preview .img{
+    position: absolute;
+    width: 1142px;
+    height: 460px;
+    z-index: -100;
+}
 .preview .block{
     display: block;
     position: relative;

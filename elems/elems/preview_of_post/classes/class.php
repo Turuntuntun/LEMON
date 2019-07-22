@@ -9,7 +9,7 @@ if (empty($_GET)) {
     $resultPreview = [];
     if($data){
         foreach ($data as $key => $value){
-            $resultPreview[$key]['path'] = 'url('.$data[$key]['prewiew_image'].')';
+            $resultPreview[$key]['path'] =  $data[$key]['prewiew_image'];
             $resultPreview[$key]['title'] = $data[$key]['title'];
             $resultPreview[$key]['prewiew_text'] = $data[$key]['prewiew_text'];
         }

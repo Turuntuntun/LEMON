@@ -1,4 +1,5 @@
 <div class = "preview">
+    <img src = '' class = img>
     <div class = "block">
         <div class = "subLogo">
         </div>
