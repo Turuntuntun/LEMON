@@ -31,7 +31,7 @@
         if(images.length > 1) {
             slider(images,8000);
         }else{
-            $('.preview').css('background-image', images[0]['path']);
+            $('.preview .img').attr('src',images[value]['path']);
             $('.preview a').text(images[0]['title']);
             $('.preview .text').text(images[0]['prewiew_text']);
         }
