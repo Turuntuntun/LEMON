@@ -18,24 +18,34 @@
     background-image: url('/elems/elems/preview_of_post/images/Logo.png');
     margin-bottom:35px;
 }
-.preview h2{
-    color:#921026;
+.preview a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #ff1b44;
+}
+.preview a:hover{
+    color: #924239;
+}
+.preview .textBlock{
+    height: 90px;
+    margin-bottom: 27px;
 }
 .preview .text{
     margin-top: 29px;
     width: 325px;
-    margin-bottom: 27px;
 }
 .preview input[type="button"]{
     padding: 3px 7px;
     font-size: 12px;
-    background-color:transparent;
-    border: 1px solid #c2c2c2;
+    background-color: #514f4b;
+    border: none;
+    color: white;
+    border-radius: 12px;
     cursor: pointer;
 }
 .preview input[type="button"]:active{
     outline: none;
-    border: 1px solid #4b4b4b;
+    border: none;
     background-color: #bdb8b9;
 }
 .preview input[type="button"]:focus{

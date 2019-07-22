@@ -17,7 +17,9 @@ function slider(images,delay){
     }, delay);
     function changeImage(value) {
         $('.preview').animate({'opacity':'0'},300,function(){
-            $(this).css('background-image', images[value]);
+            $(this).css('background-image', images[value]['path']);
+            $(this).find('a').text(images[value]['title']);
+            $(this).find('.text').text(images[value]['prewiew_text']);
             $(this).animate({'opacity':'1'},300);
         });
     }

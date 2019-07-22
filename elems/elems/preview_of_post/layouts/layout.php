@@ -2,17 +2,16 @@
     <div class = "block">
         <div class = "subLogo">
         </div>
-        <h2><?=$resultPreview['title'];?></h2>
+        <h2><a href = ''></a></h2>
         <div class = "textBlock">
             <p class = "text">
-                <?=$resultPreview['prewiew_text'];?>
             </p>
         </div>
         <input type = "button" value = "GET IT RECIPE"><br>
         <div class = "radio">
             <?
-            if (count($resultPreview['path']) > 1){
-                foreach ($resultPreview['path'] as $key => $value){
+            if (count($resultPreview) > 1) {
+                foreach ($resultPreview as $key => $value) {
                     ?>
                     <input type = "radio" name = "slide" id = "preview<?=$key?>" value="<?=$key?>">
                     <label for = "preview<?=$key?>">
@@ -27,11 +26,13 @@
 </div>
 <script>
     $(document).ready(function() {
-        let images = <?=json_encode($resultPreview['path'])?>;
+        let images = <?=json_encode($resultPreview)?>;
         if(images.length > 1) {
             slider(images,8000);
         }else{
-            $('.preview').css('background-image', images[0]);
+            $('.preview').css('background-image', images[0]['path']);
+            $('.preview a').text(images[0]['title']);
+            $('.preview .text').text(images[0]['prewiew_text']);
         }
     });
 </script>
