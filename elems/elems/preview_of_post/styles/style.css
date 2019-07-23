@@ -1,11 +1,16 @@
 .preview{
     margin: 0 auto;
     height: 460px;
-    width: 1142px;
-    background-image: url("images/Photo.png");
+    width: 1128px;
     background-repeat: no-repeat;
     margin-top: 80px;
     margin-bottom: 100px;
+}
+.preview .img{
+    position: absolute;
+    width: 1128px;
+    height: 460px;
+    z-index: -100;
 }
 .preview .block{
     display: block;
@@ -16,27 +21,37 @@
 .preview .subLogo{
     width: 252px;
     height: 105px;
-    background-image: url('images/Logo.png');
+    background-image: url('/elems/elems/preview_of_post/images/Logo.png');
     margin-bottom:35px;
 }
-.preview h2{
-    color:#921026;
+.preview a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #ff1b44;
+}
+.preview a:hover{
+    color: #924239;
+}
+.preview .textBlock{
+    height: 90px;
+    margin-bottom: 27px;
 }
 .preview .text{
     margin-top: 29px;
     width: 325px;
-    margin-bottom: 27px;
 }
 .preview input[type="button"]{
     padding: 3px 7px;
     font-size: 12px;
-    background-color:transparent;
-    border: 1px solid #c2c2c2;
+    background-color: #514f4b;
+    border: none;
+    color: white;
+    border-radius: 12px;
     cursor: pointer;
 }
 .preview input[type="button"]:active{
     outline: none;
-    border: 1px solid #4b4b4b;
+    border: none;
     background-color: #bdb8b9;
 }
 .preview input[type="button"]:focus{
@@ -46,9 +61,6 @@
     position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
     bottom: -50px; /* прикрепить к верху родителя */
     right: 30px;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
     user-select: none;
     cursor:default;
 }

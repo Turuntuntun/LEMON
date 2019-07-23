@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/elems/elems/post_a_comment/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/elem_about_syte_and_404/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/autorization/style.css?v=<?=$rand?>">
-    <link rel="stylesheet" type="text/css" href="/elems/elems/preview_of_post/style.css?v=<?=$rand?>">
+    <link rel="stylesheet" type="text/css" href="/elems/elems/preview_of_post/styles/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/registration/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/comments/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/elems/elems/calendar/style.css?v=<?=$rand?>">
@@ -40,6 +40,7 @@
     <script type="text/javascript" src = "../js/main.js"></script>
     <script type="text/javascript" src = "../elems/elems/head_menu/script.js?v=<?=$rand?>"></script>
     <script type="text/javascript" src = "../elems/elems/calendar/script.js?v=<?=$rand?>"></script>
+    <script type="text/javascript" src = "../elems/elems/preview_of_post/scripts/script.js?v=<?=$rand?>"></script>
 	<title>LEMON</title>
 </head>
 <body>
