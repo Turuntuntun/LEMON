@@ -1,14 +1,14 @@
 .preview{
     margin: 0 auto;
     height: 460px;
-    width: 1142px;
+    width: 1128px;
     background-repeat: no-repeat;
     margin-top: 80px;
     margin-bottom: 100px;
 }
 .preview .img{
     position: absolute;
-    width: 1142px;
+    width: 1128px;
     height: 460px;
     z-index: -100;
 }
