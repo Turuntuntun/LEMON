@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     margin-top: 80px;
     margin-bottom: 100px;
+    opacity: 0;
 }
 .preview .img{
     position: absolute;
