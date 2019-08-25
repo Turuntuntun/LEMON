@@ -1,9 +1,13 @@
+<div class = 'control_block'>
+</div>
 <div class = "preview">
-    <img src = '' class = img>
+    <img src = '' class = img >
     <div class = "block">
         <div class = "subLogo">
         </div>
-        <h2><a href = ''></a></h2>
+        <h2>
+            <a href = ''></a>
+        </h2>
         <div class = "textBlock">
             <p class = "text">
             </p>
@@ -16,6 +20,6 @@
 <script>
     $(document).ready(function() {
         let images = <?=json_encode($resultPreview)?>;
-        new slider(images,7000).main();
+        new slider(images,1000).main();
     });
 </script>

@@ -43,7 +43,7 @@
             <div class = "smallBlock">
                <div class = "time"></div>
                <span class = "text"><?=$value['time'].'mins'?> |</span>
-               <div class = "commen"></div>
+               <div class = "comment"></div>
                <span class = "text"><?=$value['count_comments']?></span>
                <div class = "viem"></div>
                <span class ="text"><?=$value['count_view']?></span>
