@@ -1,5 +1,3 @@
-<div class = 'control_block'>
-</div>
 <div class = "preview">
     <img src = '' class = img >
     <div class = "block">
@@ -19,7 +17,7 @@
 </div>
 <script>
     $(document).ready(function() {
-        let images = <?=json_encode($resultPreview)?>;
+        let images = <?=json_encode($resultArray)?>;
         new slider(images,1000).main();
     });
 </script>

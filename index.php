@@ -24,4 +24,4 @@
 
         }
     }
-    include 'elems/layout.php';
+    include 'blocks/layout.php';
