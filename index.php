@@ -1,5 +1,5 @@
 <?php
-    require_once('init.php');
+    require_once('ME/settings/init.php');
 
     if (isset($_POST['reg_email']) and isset($_POST['reg_login']) and isset($_POST['password']) and isset($_POST['password_two'])){
         $email = strip_tags($_POST['reg_email']);
@@ -18,7 +18,7 @@
         $login = strip_tags($_POST['log_email']);
         $password = md5(strip_tags($_POST['log_pass']));
         $query = "SELECT id FROM users WHERE login = '$login' AND password = '$password'";
-        $result = mysqli_query($link,$query) or die (mysql_error($link));
+        $result = mysqli_query($link,$query) or die (mysqli_error($link));
         for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
         if($data){
 
