@@ -12,7 +12,7 @@ function slider(images, delay   ) {
     this.type = 'opacity';
     this.nameRadio = '.' + images['NAME_BLOCK'] + ' .radio';
 
-    this.main = function() {
+    this.init = function() {
         addRadio();
         checkRadio();
         $(context.radioName + '0').trigger(context.event);
@@ -22,7 +22,7 @@ function slider(images, delay   ) {
                 getCurrentRadio();
             }, context.delay);
         }else{
-            changeImage(0);
+            changeImageOpacity(0);
         }
     };
     //Получение текущего k и вызов тригера радиокнопки(по времени)
@@ -37,11 +37,11 @@ function slider(images, delay   ) {
     function checkRadio(){
         $(context.radio).on(context.event, function () {
             context.current = $(this).val();
-            changeImage($(this).val());
+            changeImageOpacity($(this).val());
         });
     }
     //Смена баннера
-    function changeImage(value) {
+    function changeImageOpacity(value) {
         $(context.block).animate({'opacity' : '0'}, 500, function () {
             $(this).find('.img').attr('src', context.images['ITEMS'][value]['path']);
             $(this).find('a').attr('href', context.images['ITEMS'][value]['href']);
