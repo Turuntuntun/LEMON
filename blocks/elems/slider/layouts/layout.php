@@ -17,7 +17,7 @@
 </div>
 <script>
     $(document).ready(function() {
-        let images = <?=json_encode($resultArray)?>;
-        new slider(images,1000).init();
+        let sliderArray = <?=json_encode($resultArray)?>;
+        new slider(sliderArray,1000).init();
     });
 </script>
