@@ -22,7 +22,7 @@
 .preview .subLogo{
     width: 252px;
     height: 105px;
-    background-image: url('/blocks/elems/preview_of_post/images/Logo.png');
+    background-image: url('/blocks/elems/slider/images/Logo.png');
     margin-bottom:35px;
 }
 .preview a{

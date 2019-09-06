@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/blocks/elems/post_a_comment/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/blocks/elems/elem_about_syte_and_404/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/blocks/elems/autorization/style.css?v=<?=$rand?>">
-    <link rel="stylesheet" type="text/css" href="/blocks/elems/preview_of_post/styles/style.css?v=<?=$rand?>">
+    <link rel="stylesheet" type="text/css" href="/blocks/elems/slider/styles/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/blocks/elems/registration/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/blocks/elems/comments/style.css?v=<?=$rand?>">
     <link rel="stylesheet" type="text/css" href="/blocks/elems/calendar/style.css?v=<?=$rand?>">
@@ -40,7 +40,7 @@
     <script type="text/javascript" src = "../js/main.js"></script>
     <script type="text/javascript" src = "/blocks/elems/head_menu/script.js?v=<?=$rand?>"></script>
     <script type="text/javascript" src = "/blocks/elems/calendar/script.js?v=<?=$rand?>"></script>
-    <script type="text/javascript" src = "/blocks/elems/preview_of_post/scripts/script.js?v=<?=$rand?>"></script>
+    <script type="text/javascript" src = "/blocks/elems/slider/scripts/script.js?v=<?=$rand?>"></script>
 	<title>LEMON</title>
 </head>
 <body>
@@ -53,7 +53,7 @@
 	</header>
 	<main>
 		<?php
-			include 'elems/preview_of_post/main.php';
+			include 'elems/slider/main.php';
             include 'elems/full_post/main.php';
             include 'elems/list_of_post/main.php';
 			include 'elems/elem_about_syte_and_404/main.php';
