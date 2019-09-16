@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Юра
- * Date: 02.09.2019
- * Time: 13:48
- */
+require_once('/../../settings/init.php');
+if(isset($_POST['slideDelay'])){
+    $delay = (int)$_POST['slideDelay'];
+    $query = "UPDATE delay SET delay=$delay WHERE code = 'prewiew'";
+    mysqli_query($link,$query) or die (mysqli_error());
+}

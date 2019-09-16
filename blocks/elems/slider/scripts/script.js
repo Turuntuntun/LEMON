@@ -1,10 +1,10 @@
-function slider(images, delay   ) {
+function slider(images) {
 
     let context = this;
     this.current = 0;
     this.radio = '.' + images['NAME_BLOCK'] + ' .radio input';
     this.images = images;
-    this.delay = delay;
+    this.delay = images['DELAY'] * 1000;
     this.count = images['ITEMS'].length;
     this.event = 'click';
     this.block = '.' + images['NAME_BLOCK'];

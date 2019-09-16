@@ -18,6 +18,6 @@
 <script>
     $(document).ready(function() {
         let sliderArray = <?=json_encode($resultArray)?>;
-        new slider(sliderArray,1000).init();
+        new slider(sliderArray).init();
     });
 </script>
